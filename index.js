@@ -8,9 +8,9 @@ shareButton.addEventListener("click", function () {
 
   if (!shareBox.classList.contains("shown")) {
     shareButton.classList.remove("open-icon");
-    shareButton.src = "/images/icon-share.svg";
+    shareButton.src = "./images/icon-share.svg";
   } else {
     shareButton.classList.add("open-icon");
-    shareButton.src = "/images/icon-share-light.svg";
+    shareButton.src = "./images/icon-share-light.svg";
   }
 });
